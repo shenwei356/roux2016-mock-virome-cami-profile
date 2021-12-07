@@ -1,0 +1,10 @@
+
+*.directory
+
+# taxonomy
+delnodes.dmp
+merged.dmp
+names.dmp
+nodes.dmp
+
+taxdump*
