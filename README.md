@@ -1,13 +1,6 @@
 # Ground truth metagenomic profiles in CAMI format for the mock virome communities in Roux et al.
 
-## Databases and taxonomy version
-
-- KMCP,  genbank-viral (2021-12-06), 2021-12-06
-- MetaPhlAn, mpa_v30_CHOCOPhlAn_201901 (?), 2019-01
-- Kraken, PlusPF (2021-05-17), 2021-05-17
-
-In this benchmark, we generate metagenomic profiles with the same NCBI Taxonomy version 2021-10-01,
-including the gold-standard profiles.
+Similar projects: https://github.com/shenwei356/sun2021-cami-profiles
 
 ## Datasets
 
