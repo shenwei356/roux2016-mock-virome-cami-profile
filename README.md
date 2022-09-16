@@ -16,20 +16,20 @@ to Linker Amplification for quantitative amplification of both dsDNA and ssDNA t
 
 Phages (rank is based on NCBI taxonomy 2021-12-06)
 
-|phage      |taxid  |name                       |rank   |
-|:----------|:------|:--------------------------|:------|
-|PSA-HM1    |1357705|Pseudoalteromonas phage HM1|species|
-|PSA-HP1    |1357706|Pseudoalteromonas phage HP1|no rank|
-|PSA-HS1    |1357707|Pseudoalteromonas phage HS1|species|
-|PSA-HS2    |1357708|Pseudoalteromonas phage HS2|species|
-|PSA-HS6    |1357710|Pseudoalteromonas phage HS6|species|
-|Cba phi38:1|1327977|Cellulophaga phage phi38:1 |species|
-|Cba phi18:3|1327983|Cellulophaga phage phi18:3 |species|
-|Cba phi38:2|1327999|Cellulophaga phage phi38:2 |species|
-|Cba phi13:1|1327992|Cellulophaga phage phi13:1 |no rank|
-|Cba phi18:1|1327982|Cellulophaga phage phi18:1 |no rank|
-|phix174    |2886930|Escherichia phage phiX174  |no rank|
-|alpha3     |10849  |Escherichia phage alpha3   |no rank|
+|phage      |taxid  |name                       |rank   |species                    |genus          |family       |
+|:----------|:------|:--------------------------|:------|:--------------------------|:--------------|:------------|
+|PSA-HM1    |1357705|Pseudoalteromonas phage HM1|species|Pseudoalteromonas phage HM1|               |Myoviridae   |
+|PSA-HP1    |1357706|Pseudoalteromonas phage HP1|no rank|Pseudoalteromonas virus HP1|Melvirus       |Zobellviridae|
+|PSA-HS1    |1357707|Pseudoalteromonas phage HS1|species|Pseudoalteromonas phage HS1|               |Siphoviridae |
+|PSA-HS2    |1357708|Pseudoalteromonas phage HS2|species|Pseudoalteromonas phage HS2|               |Siphoviridae |
+|PSA-HS6    |1357710|Pseudoalteromonas phage HS6|species|Pseudoalteromonas phage HS6|               |Siphoviridae |
+|Cba phi38:1|1327977|Cellulophaga phage phi38:1 |species|Cellulophaga phage phi38:1 |               |Podoviridae  |
+|Cba phi18:3|1327983|Cellulophaga phage phi18:3 |species|Cellulophaga phage phi18:3 |               |Podoviridae  |
+|Cba phi38:2|1327999|Cellulophaga phage phi38:2 |species|Cellulophaga phage phi38:2 |               |Myoviridae   |
+|Cba phi13:1|1327992|Cellulophaga phage phi13:1 |no rank|Cellulophaga virus ST      |Cbastvirus     |Siphoviridae |
+|Cba phi18:1|1327982|Cellulophaga phage phi18:1 |no rank|Cellulophaga virus Cba181  |Helsingorvirus |Siphoviridae |
+|phix174    |2886930|Escherichia phage phiX174  |no rank|Escherichia virus phiX174  |Sinsheimervirus|Microviridae |
+|alpha3     |10849  |Escherichia phage alpha3   |no rank|Escherichia virus alpha3   |Alphatrevirus  |Microviridae |
 
 The abundance of phages in every sample is listed in [Table S2](https://dfzljdn9uc3pi.cloudfront.net/2016/2777/1/ssDNA_dsDNA_viromes_2.0_Supplementary_Tables.xls).
 We converted the abundance table to CAMI format, available at: https://github.com/shenwei356/roux2016-mock-virome-cami-profile
