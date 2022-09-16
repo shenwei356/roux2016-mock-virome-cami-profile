@@ -107,3 +107,18 @@ NCBI Taxonomy version: 2021-12-06
         | taxonkit lineage -nrL -i 2 --data-dir taxdump/ \
         | csvtk rename -t -f 3,4 -n name,rank \
         > names.tsv
+
+Families
+
+    reads=kmcp-pese
+    X=taxdump/
+    
+    ls roux2016/*.tsv \
+        | rush -k \
+            'csvtk cut -Ht -f 1 {} \
+                | taxonkit reformat -I 1 -f "{f}" --data-dir taxdump \
+                | csvtk uniq -Ht -f 2 \
+                | csvtk mutate2 -Ht -e "\"{%.}\"" \
+                | csvtk cut -Ht -f 3,2 ' \
+        | csvtk add-header -t -n sample,family \
+        > family.gs.tsv
